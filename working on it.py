@@ -6,6 +6,7 @@ keep_going = 'y'
         
 while keep_going == 'y':
         Num1 = (input('Enter your first number: '))
+        print(Num1)
         if (Num1.isnumeric) == False:
                 Num1 = (input('Please enter a number this time: '))
         else:
